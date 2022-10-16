@@ -33,7 +33,7 @@ const exif = new Exif();
 conn.connect()
 const xinz = conn.xinz
 
-fake = 'Self Bot By Aqulzz'
+fake = 'Self Bot By Aiman'
 fakeimage = fs.readFileSync(`./media/aqul.jpeg`)
 prefix = 'z'
 public = false
@@ -96,8 +96,7 @@ xinz.on('message-new', async(qul) => {
         switch (command) {
 			case 'menu': case 'help':
 				textnya = `*${ucapan.data.result}*
-
-Hitung mundur ramdhan
+				
 	=> ${ramadhan.data.result}
 
 No prefix
@@ -135,7 +134,7 @@ No prefix
 => ${prefix}kick
 => ${prefix}add
 
-More? rakit sendirilah`
+More? gk tau`
 				aqul.sendFakeStatusWithImg(from, fakeimage, textnya, fake)
 				break
             case 'test':
